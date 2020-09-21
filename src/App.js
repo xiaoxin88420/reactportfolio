@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
-import Porfolio from './pages/Portfolio'
+import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import {
   Collapse,
