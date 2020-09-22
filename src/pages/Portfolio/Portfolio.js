@@ -4,7 +4,9 @@ import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap'
 
 const Portfolio = () => {
   return (
-    <h1>Portfolio</h1>
+    <>
+      <h1>Portfolio</h1>
+    </>
   )
 }
 
