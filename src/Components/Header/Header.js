@@ -29,7 +29,7 @@ const Header = () => {
     <Router>
       <div>
         <Navbar color="skyblue" light expand="md">
-          <NavbarBrand href="/">MaxHub</NavbarBrand>
+          <NavbarBrand>MaxHub</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
