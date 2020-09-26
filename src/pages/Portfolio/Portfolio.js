@@ -6,6 +6,7 @@ import EDaBurger from './pics/e-da-burger.jpg'
 import weatherApp from './pics/weatherapp.jpg'
 import workdayScheduler from './pics/work-day-scheduler.jpg'
 import psgen from './pics/psgen.jpg'
+import googlebook from './pics/googlebooksearch.jpg'
 import {
   Container,
   Row,
@@ -57,8 +58,13 @@ const Portfolio = () => {
       img: psgen,
       link: 'https://xiaoxin88420.github.io/pwgenerator/'
     },
-  
-  
+    {
+      title: 'Google Book Search',
+      subtitle: 'Homework',
+      text: "This is a book search app using Google Book API for reference. It's built under React.js. There're two pages, the Home page to search and the Saved page to restore saved books.",
+      img: googlebook,
+      link: 'https://googlebook-search-0925.herokuapp.com/'
+    }  
   ]
 
 
@@ -87,6 +93,9 @@ const Portfolio = () => {
           </Col>
           <Col>
             <Project project={project[5]} />
+          </Col>
+          <Col>
+            <Project project={project[6]} />
           </Col>
         </Row>
         <br/>
